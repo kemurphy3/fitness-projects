@@ -1,0 +1,135 @@
+ # Development Priorities & Time Allocation
+
+     ## Time Allocation Framework (15-20 hrs/week)
+
+     ### Monthly Sprint Model
+     - **Weeks 1-3**: 70% Soccer (12 hrs), 30% Planner (6 hrs)
+     - **Week 4**: 30% Soccer (6 hrs), 70% Planner (12 hrs)
+
+     ### Why This Works
+     1. Deep focus blocks for complex features
+     2. Natural project switching prevents burnout
+     3. Aligns with B2B (soccer) vs B2C (planner) rhythms
+     4. Monthly planner sprint maintains momentum
+
+     ## Phase-Based Priority Shifts
+
+     ### Phase 1: Foundation (Aug-Oct 2025)
+     **Soccer**: 70% | **Planner**: 30%
+     - Soccer: Critical infrastructure, data pipeline
+     - Planner: Algorithm design, beta testing
+
+     ### Phase 2: Pilot Prep (Nov 2025-Jan 2026)
+     **Soccer**: 85% | **Planner**: 15%
+     - Soccer: MUST hit Spring pilot deadline
+     - Planner: Maintenance mode only
+
+     ### Phase 3: Pilot Season (Feb-May 2026)
+     **Soccer**: 90% | **Planner**: 10%
+     - Soccer: Active coach support critical
+     - Planner: Bug fixes, data collection
+
+     ### Phase 4: Summer Sprint (Jun-Aug 2026)
+     **Soccer**: 50% | **Planner**: 50%
+     - Soccer: Off-season improvements
+     - Planner: Major feature push
+
+     ### Phase 5: Scale (Sep 2026-Feb 2027)
+     **Soccer**: 60% | **Planner**: 40%
+     - Soccer: NWSL preparation
+     - Planner: Growth optimization
+
+     ## Critical Path Items
+
+     ### Soccer App Non-Negotiables
+     1. **PostgreSQL schema** - Week 1
+     2. **Polar CSV parser** - Week 2
+     3. **Basic readiness scoring** - Week 3
+     4. **Coach dashboard MVP** - Week 4
+     5. **University outreach** - October
+     6. **Pilot onboarding** - January
+
+     ### Planner App Essentials
+     1. **Core algorithm** - Week 1
+     2. **User preference capture** - Week 2
+     3. **Streak tracking** - Week 3
+     4. **Mobile-friendly UI** - Week 4
+     5. **Beta user feedback** - Ongoing
+     6. **Paid tier launch** - May 2026
+
+     ## Shared Infrastructure Priorities
+
+     ### Must Build Once (Benefits Both)
+     1. **User authentication** (JWT-based)
+     2. **PostgreSQL setup** (shared instance)
+     3. **FastAPI base** (common middleware)
+     4. **Error tracking** (Sentry integration)
+     5. **Deployment pipeline** (GitHub Actions)
+
+     ### Can Share Later
+     1. **React components** (after MVP phase)
+     2. **Analytics engine** (pattern detection)
+     3. **Notification system** (email/push)
+     4. **Payment processing** (Stripe)
+
+     ## Decision Framework
+
+     ### When to Prioritize Soccer
+     - Approaching university deadlines
+     - Pilot team needs support
+     - Conference/demo approaching
+     - NWSL conversations active
+
+     ### When to Prioritize Planner
+     - Soccer in off-season lull
+     - Waiting for coach feedback
+     - Need motivation boost (B2C faster feedback)
+     - Testing shared infrastructure
+
+     ## Risk Management
+
+     ### If Behind Schedule on Soccer
+     1. Pause planner completely (0 hours)
+     2. Consider $3K contractor for UI work
+     3. Take PTO for sprint week
+     4. Scope down to 3 core features
+
+     ### If Behind Schedule on Planner
+     1. Delay launch by 2-3 months (flexible)
+     2. Launch with fewer features
+     3. Focus on core loop only
+     4. Skip advanced analytics initially
+
+     ## Weekly Standup Questions
+
+     Every Sunday, ask yourself:
+     1. What's the #1 risk to Spring pilots?
+     2. Are planner beta users still engaged?
+     3. What can I build once for both apps?
+     4. Where am I blocked or frustrated?
+     5. What would make next week easier?
+
+     ## Success Metrics
+
+     ### Soccer App (Primary)
+     - Week 4: MVP with real data flowing
+     - Month 3: 2 universities interested
+     - Month 6: 3 teams in active pilot
+     - Month 12: 10 paying teams
+
+     ### Planner App (Secondary)
+     - Week 4: 10 beta users testing
+     - Month 3: 50% day-7 retention
+     - Month 6: 100 paying users
+     - Month 12: 1000 paying users
+
+     ## The Golden Rule
+
+     **Soccer app deadlines are fixed** (NCAA seasons don't move)
+     **Planner app deadlines are flexible** (consumers always there)
+
+     When in doubt, choose the soccer app. It has:
+     - Higher revenue per customer
+     - Better exit multiples
+     - Clearer path to profitability
+     - Less competition in the niche
